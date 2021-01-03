@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>HTML Form Web Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body >
+ <center>
+    <t style=" color: gray; font-size: 70px; font-family: Papyrus; text-shadow: 3px 1px black; text-decoration: underline;">
+  	 The MSworld
+    </t>
+  </center>
+  <fieldset style ="background: rgba(0,0,0,0.5);" width="50%">
+	<t align="center" style="color:yellow; font-size: 28px">
+	Fill up the information box to join & train yourself for the future world, a world managed by The MSworld.
+	</t>
+  </fieldset>
+	<form> 
+  <fieldset style ="background: rgba(0,0,0,0.4); margin-right: 300px; margin-left: 300px;" >
+      <legend style="font-size: 40px;color: palegreen; text-shadow: 1px 1px black;" align="center">Personal Information Box</legend>
+      <lebel for="name">Name:</lebel> 
+      <input style="margin-left: 166px"  type="text" id="name" name="name" placeholder="Enter your name" size ="30" >
+      <br>
+      <lebel for="mobile">Mobile Number:</lebel>
+      <input style="margin-left: 64px" type="tel" id="mobile" name="mobile" value="+88 0"  size ="30">
+      <br> 
+      <lebel for="email">Email:</lebel>
+      <input style="margin-left: 169px" type="email" id="email" name="email" size ="30" placeholder="Enter your email address" >
+      <br>
+      <lebel for="pass">Password:</lebel>
+      <input style="margin-left: 130px" type="password" id="pass" name="pass" size ="30" placeholder="Enter your password" >
+      <br>
+      <lebel for="age">Age:</lebel>
+      <input style="margin-left: 187px"  type="number" id="age" name="age"  placeholder="your age"  min="25" max="35" size ="30" >
+      <br>
+      <lebel for="dob">Birth Date:</lebel>
+      <input style="margin-left: 121px" type="date" id="dob" name="dob" size ="30"  >
+      <br>
+      <t>Gender:</t>
+      <input  style="margin-left: 152px" type="radio" id="male" name="gender">
+      <lebel for="male"> Male </lebel>
+      <input style="margin-left: 10px" type="radio" id="female" name="gender">
+  	  <lebel for="female"> Female </lebel>
+      <br>
+      <lebel for="cv">Attach CV:</lebel>
+      <input style="margin-left: 124px" type="file" id="cv" name="cv"   >
+      <br>
+      <lebel for="pf">Attach Portfolio:</lebel>
+      <input style="margin-left: 67px;" type="url" id="pf" name="pf" placeholder="Enter your portfolio link" size ="30">
+      <br>
+      <lebel for="skill">Mark Skills:</lebel>
+      <input style="margin-left: 111px" type="checkbox" id="office" name="office">
+      <label for="office">MS Office</label><br>
+      <input style="margin-left: 239px" type="checkbox" id="graphics" name="graphics">
+      <label for="graphics">Graphics Design</label><br>
+      <input style="margin-left: 239px" type="checkbox" id="wd" name="wd">
+      <label for="wd">Web Design</label><br>
+      <input style="margin-left: 239px" type="checkbox" id="pop" name="pop">
+      <label for="pop">Procedure Oriented Programming</label><br>
+      <input style="margin-left: 239px" type="checkbox" id="oop" name="oop">
+      <label for="oop">Object Oriented Programming</label>
+      <br>  
+      <lebel for="week">Select Training Week:</lebel>
+      <input  type="week" id="week" name="week" >
+      <br>
+      <lebel for="time">Select Training Time:</lebel>
+      <input style="margin-left: 18px" type="time" id="time" name="time" > <t> To </t> <input  type="time" id="time" name="time" >
+      <br>
+      <t>Select Training Area:</t>
+      <select style="margin-left: 20px; background: rgba(0,0,0,0.5);">
+        <option>------</option>
+        <option>Dhaka</option>
+        <option>Chattagram</option>
+        <option>Sylhet</option>
+        <option>Rajshahi</option>
+        <option>Khulna</option>
+        <option>Barishal</option>
+        <option>Rangpur</option>
+        <option>Mymensingh</option>
+      </select>
+      <br>
+      <lebel for="color">Select a Color:</lebel>
+      <input style="margin-left: 88px" type="color" id="color" name="color"  >
+      <br>
+      <lebel for="cmnt">Why Choose Us:</lebel> 
+      <textarea type="comment" id="cmnt" name="comment" cols="60" rows="9" ></textarea>
+      <br>
+      <center>
+      <input  type="reset" id="reset" name="reset" value="Start Over" >
+      <input type="submit" id="submit" name="submit" value="I Accept & Submit" >
+      </center>
+    </fieldset>
+   </form>
+	</body>
+  <footer >
+    <hr>
+    <center style="font-size: 200%">
+    <t style="font-family: Colonna MT; color: gray;">
+      This Web page is designed by Mazharul Islam
+    </t>
+    </center>
+    <hr>
+  </footer>
+</html>
